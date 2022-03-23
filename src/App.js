@@ -10,6 +10,7 @@ function App() {
     const [pokemons, setPokemons] = useState(null);
     const [endpoint,setEndpoint] = useState('https://pokeapi.co/api/v2/pokemon')
 
+
     useEffect(() => {
 
         async function fetchData() {
