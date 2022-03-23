@@ -1,0 +1,22 @@
+.pokemon-card {
+    background-color: yellow;
+
+  }
+.geheel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 20px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px;
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+}
