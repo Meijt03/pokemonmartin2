@@ -30,6 +30,7 @@ function Pokemon({name}) {
                 <p>Moves: {pokemon.moves.length}</p>
                 <p>Weight: {pokemon.weight}</p>
                 <ul>
+
                     {pokemon.abilities.map((ability)  => {
                         return (
                             <li key={ability.slot}>
